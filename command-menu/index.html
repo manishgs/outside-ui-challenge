@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./assets/style.css" rel="stylesheet">
+    <script src="./assets/main.js"></script>
+    <title>Command Menu UI</title>
+</head>
+
+<body class="bg-image">
+
+    <div class="container">
+        <div class="search-border">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" placeholder="Type a command or search" class="search-input" />
+                    <i class="fa-command"></i> /
+                </div>
+
+
+                <div id="search-content" class="hide">
+                    <div class="search-result">
+                        <ul id="option-list">
+                            <li class="selected">
+                                <i class="fa-solid fa-hashtag"></i> Add Tag
+                                <span class="float-right">
+                                    <i class="fa-command"></i>T
+                                </span>
+                            </li>
+
+                            <li><i class="fa-solid fa-user-plus"></i>
+                                Assign to...
+                                <span class="float-right">
+                                    <i class="fa-command"></i>T
+                                </span>
+                            </li>
+
+                            <li><i class="fa-brands fa-slack"></i>
+                                Send New Message
+                                <span class="float-right">
+                                    <i class="fa-command"></i>A
+                                </span>
+                            </li>
+
+                            <li><i class="fa-solid fa-file-circle-plus"></i>
+                                Create new file
+
+                                <span class="float-right">
+                                    <a href="#" class="link">Sign in to Slack</a>
+                                    <i class="fa-command"></i>M
+                                </span>
+                            </li>
+
+
+                            <li><i class="fa-solid fa-folder-plus"></i>
+                                Create new project
+                                <span class="float-right">
+                                    <i class="fa-command"></i>N
+                                </span>
+                            </li>
+
+                            <li><i class="fa-solid fa-cube"></i>
+                                Documentation
+                                <span class="float-right">
+                                    <i class="fa-command"></i>?
+                                </span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="search-result-footer">
+                        <div class="action-option"><i class="fa-sharp fa-solid fa-hashtag"></i> tags</div>
+                        <div class="action-option">
+                            <i class="fa-solid fa-arrow-up"></i>
+                            <i class="fa-solid fa-arrow-down"></i>
+                            navigate
+                        </div>
+                        <div class="action-option"><i class="fa-solid fa-arrow-rotate-left"></i></span>open</div>
+                        <div class="close action-option"><span class="icon">esc</span>close</div>
+                        <div class="action-option"><i class="fa-solid fa-arrow-left"></i></span>parent</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
